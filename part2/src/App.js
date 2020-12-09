@@ -4,7 +4,7 @@ import Note from './components/Notes comp'
 
 const App = (props) => {
   const [notes, setNotes] = useState(props.notes)
-  const [newNotes, setNewNotes] = useState('add notes...')
+  const [newNotes, setNewNotes] = useState('add notes here...')
   const [showAll, setShowAll] = useState(true)
 
   const noteToShow = showAll ? notes : notes.filter(note => note.important === true)
