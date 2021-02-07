@@ -1,0 +1,49 @@
+{
+  "phonebook": [
+    {
+      "id": 1,
+      "name": "Bernard Desmond",
+      "phone": 2348102228633
+    },
+    {
+      "id": 2,
+      "name": "Bernard William",
+      "phone": 2348102228633
+    },
+    {
+      "id": 3,
+      "name": "Bernard Michael",
+      "phone": 2348102228633
+    },
+    {
+      "id": "32mroy3k",
+      "name": "bola",
+      "phone": "837464637446"
+    },
+    {
+      "id": "2mge6m5c",
+      "name": "Tunde",
+      "phone": "234888575849"
+    },
+    {
+      "id": "880g9m11",
+      "name": "Pastor Kunle",
+      "phone": "2345558769"
+    },
+    {
+      "id": "m44oo1l6",
+      "name": "Peter egb",
+      "phone": "2348885758968"
+    },
+    {
+      "id": "fszj9tlx",
+      "name": "prince g",
+      "phone": "2345557748578"
+    },
+    {
+      "id": "iqttaozk",
+      "name": "parody guy",
+      "phone": "234875958675969"
+    }
+  ]
+}

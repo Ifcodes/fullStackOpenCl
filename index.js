@@ -220,14 +220,90 @@
 // }
 // factoral(4)
 
-function sum(a,b){
-  return a -b
-}
+// function sum(a,b){
+//   return a -b
+// }
 
-function render(c){
-  for(let i = 1; i <= c; i++){
-    console.log(sum(i,1))
-  //  return sum(c,1)
-  }
-}
-render(5)
+// function render(c){
+//   for(let i = 1; i <= c; i++){
+//     console.log(sum(i,1))
+//   //  return sum(c,1)
+//   }
+// }
+// render(5)
+
+// let myObj = [
+//   {
+//     id: Math.random().toString(36).substring(2, 8),
+//     name: "dele",
+//     number: "08102228633"
+//   },
+//   {
+//     id: Math.random().toString(36).substring(2, 8),
+//     name: "Desmond",
+//     number: "03944739394",
+//     age: 28,
+//     married: false
+//   },
+//   {
+//     id: Math.random().toString(36).substring(2, 8),
+//     name: "Willy",
+//     number: "03944739394",
+//     age: 29,
+//     married: false
+//   }
+// ]
+
+// myObj[0].age = 45
+// myObj[0].married = true
+// myObj[0]["year married"] = 1997
+
+// const test = () => {
+//  myObj.map(obj => {
+//    if(obj.married) console.log(`${obj.name.charAt(0).toUpperCase().concat(obj.name.slice(1))}, with User ID: ${obj.id} is married. Got married in the year ${obj["year married"]}`)
+
+//    else console.log(`${obj.name}, with User ID: ${obj.id} is not married`)
+//  })
+// }
+
+// test()
+
+// setTimeout(() => {
+//   console.log('Loooop...')
+//   let i = 0;
+//   while(i < 500){
+//     i++
+//     console.log(i)
+//   }
+//   console.log('end')
+// }, 1000)
+
+let animals = [
+  {name: "bruno", species: "dog"},
+  {name: "kweet", species: "rabbit"},
+  {name: "whisky", species: "dog"},
+  {name: "jimmy", species: "fish"},
+  {name: "devie", species: "dog"},
+  {name: "ursula", species: "cat"}
+]
+
+let animalID = ''
+
+let animalId = Math.random().toString(36).substring(2, 8)
+
+let newAnimArr = animals.map(animal => animalID += `${animal.name} with id ${animalId} is a ${animal.species}\n`)
+
+console.log(animalID)
+
+// let isDog = function(animal) {
+//   return animal.species === 'dog'
+// }
+
+// let dogs = animals.filter(isDog)
+// let notDogs = animals.reject(isDog)
+// console.log(dogs)
+// console.log(`\n ${notDogs}`)
+
+// let dogIntro = ''
+
+// console.log(animalID)
