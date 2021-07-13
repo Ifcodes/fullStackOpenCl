@@ -1,0 +1,15 @@
+li {
+  color: grey;
+  padding-top: 3px;
+  font-size: 15px;
+}
+.error {
+  margin: 1rem 0;
+  background: rgb(235, 228, 228);
+  padding: 0.5rem 1rem;
+  border: 1px solid red;
+  color: rgb(90, 0, 0);
+  font-size: 1.5rem;
+  font-weight: 400;
+  border-radius: 10rem;
+}

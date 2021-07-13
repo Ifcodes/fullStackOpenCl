@@ -8,7 +8,7 @@ const Addcontact = ({setContacts, setAddContacts, addContacts, addNumber, setNum
     let handleNumber = (event) =>{
         setNumber(event.target.value)
     }
-    const addNewContact = (event) => {
+    const addNewContact = () => {
         // event.preventDefault()
 
         const newContact = {
